@@ -1,12 +1,12 @@
 {
-	"name": "@brj/yarn-template",
+	"name": "@brj-typescript/documentation",
 	"version": "1.0.0",
-	"description": "Yarn template",
+	"description": "BRJ Documentation.",
 	"main": "index.js",
 	"module": "./lib/index.js",
 	"types": "./lib/index.d.ts",
 	"repository": {
-		"url": "git+ssh://git@github.com/baraja-core/yarn-template.git",
+		"url": "git+ssh://git@github.com/brj-typescript/documentation.git",
 		"type": "git"
 	},
 	"author": "Jan Barášek <jan@barasek.com>",
@@ -40,16 +40,16 @@
 		"ts-jest": "~27.0.7"
 	},
 	"bugs": {
-		"url": "https://github.com/baraja-core/yarn-template/issues"
+		"url": "https://github.com/brj-typescript/documentation/issues"
 	},
-	"homepage": "https://github.com/baraja-core/yarn-template#readme",
+	"homepage": "https://github.com/brj-typescript/documentation#readme",
 	"scripts": {
 		"prepare": "npm run build",
 		"build": "yarn build:esm && yarn build:cjs && yarn build:types",
 		"build:esm": "tsc",
 		"build:cjs": "tsc --module commonjs --outDir lib",
 		"build:types": "tsc --emitDeclarationOnly --declarationDir lib",
-		"test": "yarn jest --coverage"
+		"test": "yarn jest --coverage --passWithNoTests"
 	},
 	"files": [
 		"/src",
