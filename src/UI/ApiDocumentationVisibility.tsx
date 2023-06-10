@@ -1,3 +1,5 @@
+'use client';
+
 import { FC } from 'react';
 import { Box, Button, Grid, Typography } from '@mui/material';
 import { Lock, Public } from '@mui/icons-material';

@@ -1,3 +1,5 @@
+'use client';
+
 import { FC, MouseEvent, ReactNode } from 'react';
 import { Box, IconButton } from '@mui/material';
 import { ApiDocumentationEndpointAction } from '../core/types';

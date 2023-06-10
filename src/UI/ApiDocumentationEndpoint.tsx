@@ -1,3 +1,5 @@
+'use client';
+
 import { FC } from 'react';
 import { Paper } from '@mui/material';
 import { ApiDocumentationEndpoint as ApiDocumentationEndpointEntity } from '../core/types';

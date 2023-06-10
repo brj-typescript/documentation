@@ -1,3 +1,5 @@
+'use client';
+
 import { FC, useEffect, useState } from 'react';
 import { Box } from '@mui/material';
 import { ApiDocumentation } from '../core/types';

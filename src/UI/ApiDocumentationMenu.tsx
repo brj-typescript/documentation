@@ -1,3 +1,5 @@
+'use client';
+
 import { FC } from 'react';
 import { Grid, Tooltip } from '@mui/material';
 import { ChevronLeft, ChevronRight, Home, Lock, Public } from '@mui/icons-material';

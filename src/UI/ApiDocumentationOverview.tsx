@@ -1,3 +1,5 @@
+'use client';
+
 import { FC } from 'react';
 import { Box, MenuItem } from '@mui/material';
 import { ApiDocumentationEndpoint } from '../core/types';

@@ -1,3 +1,5 @@
+'use client';
+
 import { FC } from 'react';
 import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import { ApiDocumentationEndpointActionResponse } from '../core/types';
